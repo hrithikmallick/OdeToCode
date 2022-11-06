@@ -1,3 +1,50 @@
 .btnhiden{
     display: none !important;
 }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body{
+    background-color: #F0F0F0;
+  }
+  
+  .containerX{
+    background-color: #AED3D4;
+    width:700px;
+    margin:0 auto;
+    margin-top:20px;
+    border-radius: 10px;
+  }
+  
+  .title-form{
+    background-color: #5DAAA7;
+    padding:20px;
+    border-radius: 10px 10px 0 0; 
+    color:white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+  }
+  
+  .student-form{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:repeat(5,1fr);
+    padding: 30px 10px 30px 10px;
+  }
+  input{
+    height: 28px;
+    padding: 15px 10px 15px 10px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+
+    border-radius: 10px;
+
+    
+  }
+  .field-form{
+    margin: 25px;
+  }
