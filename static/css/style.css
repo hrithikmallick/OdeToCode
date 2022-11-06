@@ -13,15 +13,31 @@
   }
   
   .containerX{
-    background-color: #AED3D4;
+    /* background-color: #AED3D4; */
     width:700px;
     margin:0 auto;
     margin-top:20px;
     border-radius: 10px;
+    /* background: linear-gradient(315deg, #2b2b2b, #333333);  */
+    background: -webkit-linear-gradient(#00BFFF,#7700BC)
+  /* box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);  */
+  }
+  .btn{
+    background: -webkit-linear-gradient(#00BFFF,#7700BC)
+
+  }
+  .containerY{
+    /* background-color: #AED3D4; */
+    width:200px;
+    margin:0 auto;
+    margin-top:20px;
+    border-radius: 10px;
+    /* background: linear-gradient(315deg, #2b2b2b, #333333);  */
+  /* box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);  */
   }
   
   .title-form{
-    background-color: #5DAAA7;
+    background-color: #4C44D4;
     padding:20px;
     border-radius: 10px 10px 0 0; 
     color:white;
@@ -48,3 +64,21 @@
   .field-form{
     margin: 25px;
   }
+  @media (max-width: 600px) {
+
+    .student-form{
+      display: flex;
+      flex-direction: column;
+    }
+    .containerX{
+      width: 100%;
+    }
+  .title-form{
+    font-size: 2%;
+  }
+
+
+  }
+
+
+
